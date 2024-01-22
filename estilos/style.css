@@ -60,7 +60,7 @@ color: black;
 .emblema{
     text-align: center;
     background-color:rgb(208, 133, 34) ;
-    color: black;
+    color: rgb(11, 11, 11);
     font-size: 1.5rem;
     font-weight:bold;
 }
@@ -77,6 +77,7 @@ nav ul{
     margin-top: 2%;
     margin-bottom: 1%;
     text-align: center;
+    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
 }
 .padre{
     display: grid;
@@ -136,13 +137,16 @@ h2{
     width: 900px;
     height:400px;
     margin-top:5%;
+    border-radius: 25px;
 }
 .imagen{
     width: 900px;
     height: 400px;
+    border-radius: 25px;
 }
 .imagen2{
     width: 900px;
+    border-radius: 25px;
 }
 #arriba{
     font-size: 2rem;
@@ -180,12 +184,17 @@ img{
     width: 100%;
     height: 80%;
     margin:auto;
+    border-radius: 20px;
+    -webkit-box-shadow: 27px 24px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 77px 12px 37px 33px;
+    
 }
 h3{
     color: rgb(4, 4, 4);
     font-size: 2.0rem ;
     background-color: orange;
     text-align: center;
+    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
 }
 /*pagina precios*/
 .precios{
@@ -246,6 +255,7 @@ h3{
     & img{
         width: 500px;
         height: 500px;
+        border-radius: 25px;
         }
 }
 .camioneta .autos{
@@ -355,10 +365,5 @@ h3{
 .oficial{
     text-align: center;
 }    
-
-
-
-
-
 }
     
