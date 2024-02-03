@@ -1,0 +1,40 @@
+@import "/estilos/mantenimiento.css";
+
+.portadaAccesorios{
+    display: flex;
+    justify-content: space-between;
+    border:5px solid rgb(250, 246, 246);
+}
+.accesorios ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.im{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    img{
+        width: 500px;
+        height: 500px;
+        border-radius: 25px;
+    }
+}
+.camioneta .autos{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: white;
+}
+ol li{
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-size: 1.5rem;
+    background-color: rgb(216, 216, 216, 0.4);
+}

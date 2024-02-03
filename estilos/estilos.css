@@ -4,7 +4,6 @@
 @import url(../estiloSass/page/modelos.scss);
 @import url(../estiloSass/page/precios.scss);
 @import url(../estiloSass/page/contacto.scss);
-@import "../estilos/madiaQ.css";
 #portada {
   background-image: url(../page/PLANTA-TOYOTA-1.jpg);
   background-repeat: no-repeat;
@@ -84,4 +83,6 @@ h2 {
   font-size: 2rem;
 }
 
-/*# sourceMappingURL=estilo.css.map */
+/*# sourceMappingURL=estilos.css..map */
+
+
