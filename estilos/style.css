@@ -30,16 +30,16 @@ color: black;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
     }
-.enlaces nav ul{
+.enlaces ul{
     display: flex;
     text-decoration: none;
     font-style: italic;
     background-color: rgba(180, 30, 30, 0.3);
     margin-top: 4%;
+    list-style: none;
 }
 .enlaces nav ul li a {
     display: flex;
-    text-decoration: none;
     margin-right: 60px;
     color:rgb(220, 230, 241);
     font-weight: 500px;
@@ -63,11 +63,6 @@ color: black;
     color: rgb(11, 11, 11);
     font-size: 1.5rem;
     font-weight:bold;
-}
-nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 /*pagina modelos*/
 .oficial{
@@ -185,7 +180,7 @@ img{
     height: 80%;
     margin:auto;
     border-radius: 20px;
-    -webkit-box-shadow: 27px 24px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 27px 24px 7px 0px rgba(0,0,0,0.75);
     border-radius: 77px 12px 37px 33px;
     
 }
@@ -279,13 +274,17 @@ ol li{
     font-size: 1.6rem;
     background-color: rgba(0, 0, 0, 0.3);
 }
-#abajo a{
+button{
     display: inline-block;
     padding: 10px 20px;  
-    background-color: #3498db;  
-    color: #f5f8f7; 
+    background-color: #3498db;   
+    border-radius: 5px;
+}
+button a{
+    color:white;
     text-decoration: none;
-    border-radius: 5px; 
+    font-size: 1rem;
+    letter-spacing: 5px;
 }
 footer{
     text-align: center;
