@@ -1,4 +1,10 @@
 @import "/estilos/mantenimiento.css";
+
+.portadaPrimaria {
+  display: grid;
+
+}
+
 .portadaAccesorios {
   display: flex;
   justify-content: space-between;

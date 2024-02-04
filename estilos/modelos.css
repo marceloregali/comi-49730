@@ -1,4 +1,10 @@
 @import "/estilos/mantenimiento.css";
+
+.portadaPrimaria {
+  display: grid;
+  justify-content: space-between;
+  align-items: start;
+}
 .oficial {
   background-color: orange;
   color: black;
@@ -13,7 +19,7 @@
   display: grid;
   grid-template-columns: 30% 30% 30%;
   -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
   row-gap: 10px;
   align-content: center;
   border: 5px solid rgb(250, 246, 246);

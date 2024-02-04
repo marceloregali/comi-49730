@@ -1,60 +1,60 @@
 @media only screen and (max-width: 480px) {
-  @import "../estilos/mediaQmodelos.css";
   /*pagina modelos mobile*/
-  h1 {
-    font-size: 4rem;
-    text-align: center;
-    color: black;
+  /*
+  h1{
+      font-size: 4rem;
+      text-align: center;
+      color: black;
   }
-  #arriba {
-    background-color: transparent;
-    font-size: 2.5rem;
+  #arriba{
+      background-color: transparent;
+      font-size: 2.5rem;
   }
-  h2 {
-    font-size: 2.5rem;
-    background-color: transparent;
+  h2{
+      font-size: 2.5rem;
+      background-color: transparent;
   }
-  ul li a {
-    font-size: 1.8rem;
+  ul li a{
+      font-size: 1.8rem;
   }
-  ul li {
-    font-size: 1.8rem;
-    background-color: rgba(98, 89, 76, 0.7);
+  ul li{
+      font-size:  1.8rem;
+      background-color: rgb(98, 89, 76, 0.7);
   }
-  .padre {
-    border: 3px solid white;
-    align-items: center;
+  .padre{
+      border: 3px solid white;
+      align-items: center;
+      }
+  #imagenes{
+      display: flex;
+      flex-direction: column;
+      width: 815px;
+      height: 800px;
+      font-size: 2rem;
+      margin-top: 1%;
   }
-  #imagenes {
-    display: flex;
-    flex-direction: column;
-    width: 815px;
-    height: 800px;
-    font-size: 2rem;
-    margin-top: 1%;
+  .imagen2{
+      width: 800px;
+      height: 370px;
   }
-  .imagen2 {
-    width: 800px;
-    height: 370px;
+  .imagen1{
+      width: 800px;
+      height: 368px;
   }
-  .imagen1 {
-    width: 800px;
-    height: 368px;
+  .imagen{
+      width: 800px;
+      height: 370px;
   }
-  .imagen {
-    width: 800px;
-    height: 370px;
+  #abajo{
+      display: none;
   }
-  #abajo {
-    display: none;
+  h3{
+      background-color: orange;
+      color:black;
+      font-size: 2rem;
+      margin: 5%;
   }
-  h3 {
-    background-color: orange;
-    color: black;
-    font-size: 2rem;
-    margin: 5%;
-  }
-  .oficial {
-    text-align: center;
-  }
+  .oficial{
+      text-align: center;
+  }*/
 }/*# sourceMappingURL=mediaQmodelos.css.map */
