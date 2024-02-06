@@ -1,9 +1,6 @@
 @import "/estilos/mantenimiento.css";
+@import "/estilos/madiaQaccsesorios.css";
 
-.portadaPrimaria {
-  display: grid;
-
-}
 
 .portadaAccesorios {
   display: flex;

@@ -1,7 +1,16 @@
 @media only screen and (max-width: 480px) {
-  body {
+  @import "../estilos/accesorios.css";
+  .im {
     max-width: 480px;
-    margin: 0 auto;
-    padding: 20px;
+  }
+  .im img {
+    width: 25%;
+    height: 25%;
+  }
+  #im1 {
+    display: none;
+  }
+  .portadaAccesorios {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=madiaQaccsesorios.css.map */
