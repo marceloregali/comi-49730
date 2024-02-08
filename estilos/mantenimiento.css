@@ -5,13 +5,20 @@
 }
 
 .oficial {
-  background-color: orange;
+  background-image: linear-gradient(to left, orange, white);
   color: black;
   font-size: 3rem;
   margin-top: 2%;
   margin-bottom: 1%;
   text-align: center;
   text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, black, grey);
+  font-size: 2rem;
 }
 
 .mante {
@@ -39,8 +46,10 @@
   text-align: justify;
   -moz-column-gap: 10px;
        column-gap: 10px;
-  color: rgb(4, 4, 4);
-  background-color: rgba(236, 238, 241, 0.7);
+  color: rgb(10, 10, 10);
+  background-image: linear-gradient(to left, rgb(185, 141, 57), white);
+  padding: 5px;
+  border-radius: 6px;
 }
 
 img {
@@ -50,12 +59,13 @@ img {
   border-radius: 20px;
   box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 77px 12px 37px 33px;
+  transform: rotate(3deg);
 }
 
 h3 {
   color: rgb(4, 4, 4);
   font-size: 2rem;
-  background-color: orange;
+  background-image: linear-gradient(to left, orange, white);
   text-align: center;
   text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
 }
@@ -75,7 +85,7 @@ h3 {
 button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #db7c34;
+  background-image: linear-gradient(to left, orange, white);
   border-radius: 5px;
 }
 button button a {

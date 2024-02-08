@@ -63,7 +63,7 @@ ul li a {
 h2 {
   color: white;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-image: linear-gradient(to bottom, black, grey);
   font-size: 2rem;
 }
 
