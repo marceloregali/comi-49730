@@ -16,6 +16,7 @@ h1{
     text-align: center;
     margin-top: 26px;
     color: black;
+    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
     }
     .redesSociales{
         margin-top: 50px;
@@ -60,6 +61,9 @@ h1{
                         color:rgb(220, 230, 241);
                         font-weight: 500px;
                         padding: 10px;
+                        &:hover {
+                            border-bottom: 2px solid blue;
+                        }
                     }
                 }
             }
