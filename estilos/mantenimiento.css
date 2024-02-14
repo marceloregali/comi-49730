@@ -1,7 +1,5 @@
-@import "/estilos/estilos.css";
-@import "/estilos/madiaQmantenimiento.css";
 .portadaPrimaria {
-  background-image: url(/medios/secundario.jpg);
+  background-image: url(../medios/secundario.jpg);
 }
 
 .oficial {
