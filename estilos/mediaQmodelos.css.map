@@ -1,1 +1,1 @@
-{"version":3,"sources":["../generales/mediaQmodelos.scss","mediaQmodelos.css"],"names":[],"mappings":"AAAA;EACY,gCAAA;EAER,wBAAA;EACA;IACI,WAAA;ECAN;EDGE;IACI,eAAA;IACA,kBAAA;ECDN;EDIE;IACI,UAAA;ECFN;AACF","file":"mediaQmodelos.css"}
+{"version":3,"sources":["../generales/mediaQmodelos.scss","mediaQmodelos.css"],"names":[],"mappings":"AAAA;EACY,gCAAA;EAER,wBAAA;EACA;IACI,eAAA;ECAN;EDGE;IACI,eAAA;IACA,kBAAA;ECDN;EDIE;IACI,UAAA;ECFN;AACF","file":"mediaQmodelos.css"}
