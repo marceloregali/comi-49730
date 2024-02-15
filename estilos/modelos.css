@@ -71,27 +71,37 @@ h2 {
 }
 
 #imagenes {
-  max-width: 90%;
+  max-width: 98%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
-  transform: rotate(3deg);
-  margin-bottom: 10px;
-  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .imagen1 {
   margin-top: 5%;
   border-radius: 25px;
+  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
+  transform: rotate(3deg);
+  margin-bottom: 2%;
+  z-index: 0;
 }
 
 .imagen {
   border-radius: 25px;
+  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
+  transform: rotate(3deg);
+  position: relative;
+  z-index: 1;
 }
 
 .imagen2 {
   border-radius: 25px;
+  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
+  transform: rotate(-3deg);
+  margin-bottom: 2%;
+  z-index: 2;
 }
 
 #arriba {
@@ -123,7 +133,7 @@ footer {
 @media only screen and (max-width: 480px) {
   /*pagina modelos mobile*/
   li {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .oficial {
     font-size: 4rem;
@@ -138,5 +148,8 @@ footer {
   button a {
     text-align: center;
     font-size: 0.8rem;
+  }
+  h2 {
+    margin-left: 12px;
   }
 }/*# sourceMappingURL=modelos.css.map */
