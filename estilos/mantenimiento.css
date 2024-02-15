@@ -54,8 +54,8 @@ img {
   width: 100%;
   height: 80%;
   border-radius: 20px;
-  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 77px 12px 37px 33px;
+  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
   transform: rotate(3deg);
   overflow: hidden;
   margin-bottom: 10px;

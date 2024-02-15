@@ -26,18 +26,18 @@ body{
         color:white;
         background-color: rgb(32, 23, 23);
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 }
 .portadavehiculos{
     grid-area: "vehiculos";
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
 }
 .portadaCamionetas{
     grid-area: "camionetas";
     width: 90%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
 }
 ul{ 
@@ -65,11 +65,15 @@ h2{
     font-size: 2rem;
 }
 #imagenes{
-    max-width: 100%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    box-shadow: 27px 24px 7px 0px rgba(0,0,0,0.75);
+    transform: rotate(3deg);
+    margin-bottom: 10px;
+    overflow: hidden;
+    }
 .imagen1{
     margin-top:5%;
     border-radius: 25px;
