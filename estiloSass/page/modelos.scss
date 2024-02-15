@@ -1,6 +1,7 @@
-@import "/estilos/mantenimiento.css";
-
-/*.oficial{
+body{
+    background-image: url(../medios/secundario.jpg) ;
+}
+.oficial{
     background-color: orange;
     font-size: 3rem;
     margin-top: 2%;
@@ -25,18 +26,18 @@
         color:white;
         background-color: rgb(32, 23, 23);
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 }
 .portadavehiculos{
     grid-area: "vehiculos";
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: white;
 }
 .portadaCamionetas{
     grid-area: "camionetas";
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: white;
 }
 ul{ 
@@ -46,6 +47,7 @@ ul{
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
             text-decoration: none;
+            font-size: 1rem;
         }        
     }
 }
@@ -63,8 +65,10 @@ h2{
     font-size: 2rem;
 }
 #imagenes{
-    justify-content: space-between;
-    text-align: center;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .imagen1{
     margin-top:5%;
@@ -85,4 +89,40 @@ h3{
     text-align: center;
     text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
 }
-*/
+button{
+    padding: 10px 20px;  
+    background-image: linear-gradient(to left,orange, white);   
+    border-radius: 5px;
+    a{
+        text-decoration: none;
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+}
+footer{
+    text-align: center;
+}
+
+@media only screen and (max-width:480px){
+
+    /*pagina modelos mobile*/
+    li {
+        font-size: 1rem;
+    }
+
+    .oficial{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .imagenes{
+        width: 50%;
+    }
+    button{
+        width: 20%;
+        a {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    }
+}

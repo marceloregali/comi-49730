@@ -1,87 +1,138 @@
-@import "/estilos/mantenimiento.css";
-/*.oficial{
-    background-color: orange;
-    font-size: 3rem;
-    margin-top: 2%;
-    margin-bottom: 1%;
+body {
+  background-image: url(../medios/secundario.jpg);
+}
+
+.oficial {
+  background-color: orange;
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  text-align: center;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.padre {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 10px;
+  align-content: center;
+  border: 5px solid rgb(250, 246, 246);
+  justify-content: center;
+  justify-items: stretch;
+}
+
+.portadaModelos {
+  grid-area: "modelos";
+  font-size: 1.5rem;
+}
+.portadaModelos h1 {
+  color: white;
+  background-color: rgb(32, 23, 23);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.portadavehiculos {
+  grid-area: "vehiculos";
+  font-size: 1.1rem;
+  color: white;
+}
+
+.portadaCamionetas {
+  grid-area: "camionetas";
+  width: 90%;
+  font-size: 1.1rem;
+  color: white;
+}
+
+ul li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.rojo {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to bottom, black, grey);
+  font-size: 2rem;
+}
+
+#imagenes {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen1 {
+  margin-top: 5%;
+  border-radius: 25px;
+}
+
+.imagen {
+  border-radius: 25px;
+}
+
+.imagen2 {
+  border-radius: 25px;
+}
+
+#arriba {
+  font-size: 2rem;
+}
+
+h3 {
+  color: rgb(4, 4, 4);
+  background-image: linear-gradient(to left, orange, white);
+  text-align: center;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+button {
+  padding: 10px 20px;
+  background-image: linear-gradient(to left, orange, white);
+  border-radius: 5px;
+}
+button a {
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  /*pagina modelos mobile*/
+  li {
+    font-size: 1rem;
+  }
+  .oficial {
+    font-size: 4rem;
     text-align: center;
-    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
-}
-.padre{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 30px;
-    row-gap: 10px;
-    align-content: center;
-    border:5px solid rgb(250, 246, 246);
-    justify-content: center;
-    justify-items: stretch;
-}
-.portadaModelos{
-    grid-area: "modelos";
-    font-size: 1.5rem;
-    h1{
-        color:white;
-        background-color: rgb(32, 23, 23);
-        text-align: center;
-        font-size: 1.5rem;
-    }
-}
-.portadavehiculos{
-    grid-area: "vehiculos";
-    font-size: 1.5rem;
-    color: white;
-}
-.portadaCamionetas{
-    grid-area: "camionetas";
-    width: 90%;
-    font-size: 1.5rem;
-    color: white;
-}
-ul{ 
-    li{
-        a{
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            text-decoration: none;
-        }        
-    }
-}
-.rojo{
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:1.2rem;
-    text-decoration:none;
-}
-h2{
-    color: white;
+  }
+  .imagenes {
+    width: 50%;
+  }
+  button {
+    width: 20%;
+  }
+  button a {
     text-align: center;
-    background-image: linear-gradient(to bottom, black, grey);
-    font-size: 2rem;
-}
-#imagenes{
-    justify-content: space-between;
-    text-align: center;
-}
-.imagen1{
-    margin-top:5%;
-    border-radius: 25px;
-}
-.imagen{
-    border-radius: 25px;
-}
-.imagen2{
-    border-radius: 25px;
-}
-#arriba{
-    font-size: 2rem;
-}
-h3{
-    color: rgb(4, 4, 4);
-    background-image: linear-gradient(to left,orange, white);
-    text-align: center;
-    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
-}
-*//*# sourceMappingURL=modelos.css.map */
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=modelos.css.map */
