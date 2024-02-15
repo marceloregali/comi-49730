@@ -1,5 +1,5 @@
-
-
+@import url(/estilos/mantenimiento.css);
+@import "../estilo.scss";
 
 .oficial{
     background-color: orange;
@@ -79,4 +79,10 @@ h2{
 }
 #arriba{
     font-size: 2rem;
+}
+h3{
+    color: rgb(4, 4, 4);
+    background-image: linear-gradient(to left,orange, white);
+    text-align: center;
+    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
 }

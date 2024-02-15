@@ -1,3 +1,103 @@
+@import url(/estilos/mantenimiento.css);
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+#portada {
+  background-image: url(../page/PLANTA-TOYOTA-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(249, 249, 251);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 26px;
+  color: black;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+.redesSociales {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+}
+.redesSociales svg {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  margin: 25px 30px;
+  transition: transform 0.2s;
+}
+.redesSociales svg:hover {
+  transform: scale(1.8);
+}
+
+#verde {
+  color: #00e676;
+}
+
+#azul {
+  color: blue;
+}
+
+#rojo {
+  color: red;
+}
+
+.enlaces nav ul {
+  display: flex;
+  text-decoration: none;
+  font-style: italic;
+  background-color: rgba(180, 30, 30, 0.3);
+  margin-top: 4%;
+  list-style: none;
+}
+.enlaces nav ul li a {
+  display: flex;
+  margin-right: 60px;
+  color: rgb(220, 230, 241);
+  font-weight: 500px;
+  padding: 10px;
+}
+.enlaces nav ul li a:hover {
+  border-bottom: 2px solid blue;
+}
+
+.cabecera {
+  background-color: rgba(208, 133, 34, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ubicacion {
+  text-align: center;
+  max-width: 500px;
+  background-color: rgba(32, 23, 23, 0.6);
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-right: 20px;
+}
+.ubicacion a {
+  color: white;
+  font-size: 2rem;
+}
+
+.emblema {
+  text-align: center;
+  background-color: rgb(208, 133, 34);
+  color: rgb(11, 11, 11);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 2rem;
+}
+
 .oficial {
   background-color: orange;
   font-size: 3rem;
@@ -85,4 +185,11 @@ h2 {
 
 #arriba {
   font-size: 2rem;
+}
+
+h3 {
+  color: rgb(4, 4, 4);
+  background-image: linear-gradient(to left, orange, white);
+  text-align: center;
+  text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.6);
 }/*# sourceMappingURL=modelos.css.map */
