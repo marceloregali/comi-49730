@@ -25,13 +25,17 @@ h2 {
   border: 5px solid rgb(250, 246, 246);
 }
 
-.accesorios ul li a {
+.accesorios ul li {
   color: white;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-style: italic;
   font-size: 1.5rem;
+}
+.accesorios ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .im {
@@ -45,7 +49,16 @@ h2 {
   border-radius: 25px;
 }
 
-.camioneta .autos {
+.camioneta {
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: white;
+}
+
+.autos {
   text-align: center;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -66,12 +79,6 @@ button {
   padding: 10px 20px;
   background-image: linear-gradient(to left, orange, white);
   border-radius: 5px;
-}
-button button a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  letter-spacing: 5px;
 }
 
 footer {

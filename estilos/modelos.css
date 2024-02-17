@@ -120,11 +120,6 @@ button {
   background-image: linear-gradient(to left, orange, white);
   border-radius: 5px;
 }
-button a {
-  text-decoration: none;
-  font-size: 1rem;
-  letter-spacing: 5px;
-}
 
 footer {
   text-align: center;
@@ -133,11 +128,15 @@ footer {
 @media only screen and (max-width: 480px) {
   /*pagina modelos mobile*/
   li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    background-color: rgba(180, 30, 30, 0.3);
   }
   .oficial {
     font-size: 4rem;
     text-align: center;
+  }
+  .padre {
+    display: block;
   }
   .imagenes {
     width: 50%;

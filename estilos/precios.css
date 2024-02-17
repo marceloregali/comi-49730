@@ -40,6 +40,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: flex-start;
   background-color: rgba(35, 35, 35, 0.5);
+  text-decoration: none;
 }
 
 .km {
@@ -71,12 +72,6 @@ button {
   padding: 10px 20px;
   background-image: linear-gradient(to left, orange, white);
   border-radius: 5px;
-}
-button button a {
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  letter-spacing: 5px;
 }
 
 footer {

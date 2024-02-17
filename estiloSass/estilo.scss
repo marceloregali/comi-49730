@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 #portada{
-    background-image: url(../page/PLANTA-TOYOTA-1.jpg);
+    background-image: url(./medios/secundario.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(249, 249, 251);
@@ -116,5 +116,30 @@ h3{
     font-size: 2rem;
     margin: 5%;
 }
-
 }
+/*
+@media only screen and (max-width:980px){
+.enlaces nav ul{
+    display:block;
+    font-size: 1.4rem;
+}
+h1{
+    margin-top: 8%;
+    margin-left: 15%;
+    font-size: 3rem;
+}
+.ubicacion{
+    max-width: 50%;
+    margin-right: 25%;
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    a{
+        display:none;
+    }
+}
+.emblema{
+    font-size: 1.1rem;
+}
+}*/

@@ -107,11 +107,6 @@ button{
     padding: 10px 20px;  
     background-image: linear-gradient(to left,orange, white);   
     border-radius: 5px;
-    a{
-        text-decoration: none;
-        font-size: 1rem;
-        letter-spacing: 5px;
-    }
 }
 footer{
     text-align: center;
@@ -121,12 +116,17 @@ footer{
 
     /*pagina modelos mobile*/
     li {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        background-color: rgba(180, 30, 30, 0.3);
     }
 
     .oficial{
         font-size: 4rem;
         text-align: center;
+    }
+
+    .padre{
+        display: block;
     }
 
     .imagenes{
@@ -142,4 +142,7 @@ footer{
 h2{
     margin-left: 12px;
 }
+}
+@media only screen and (max-width:980px){
+    
 }
