@@ -1,8 +1,8 @@
 
-.portadaPrimaria{
+body{
     background-image: url(../medios/secundario.jpg);
 }
-.oficial{
+h1{
     background-image: linear-gradient(to left,orange, white);
     color: black;
     font-size: 3rem;
@@ -17,7 +17,7 @@ h2{
     background-image: linear-gradient(to bottom, black, grey);
     font-size: 2rem;
 }
-.mante{
+header{
     color: rgb(248, 246, 246);
     font-size: 1.6rem;
     margin: auto;
@@ -34,9 +34,6 @@ h2{
             }
         }
     }
-}
-.caracteristicas{
-    color: white;
 }
 .parrafo{
     color:rgb(249, 248, 247);
@@ -91,4 +88,10 @@ footer{
         
     }
     
+
+    img{
+        width: 70%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+    }
     }

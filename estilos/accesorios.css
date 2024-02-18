@@ -1,8 +1,8 @@
-.portadaPrimaria {
+body {
   background-image: url(../medios/secundario.jpg);
 }
 
-.oficial {
+h1 {
   background-image: linear-gradient(to left, orange, white);
   color: black;
   font-size: 3rem;
@@ -19,29 +19,25 @@ h2 {
   font-size: 2rem;
 }
 
-.portadaAccesorios {
-  display: flex;
-  justify-content: space-between;
-  border: 5px solid rgb(250, 246, 246);
+header {
+  color: rgb(248, 246, 246);
+  font-size: 1.6rem;
+  margin: auto;
+  max-width: 600px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
 }
-
-.accesorios ul li {
+header ul li a {
   color: white;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-style: italic;
-  font-size: 1.5rem;
-}
-.accesorios ul li a {
-  color: white;
-  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .im {
   display: flex;
-  justify-content: center;
-  margin-top: 5%;
+  justify-content: space-around;
+  margin: 5% 0px;
 }
 .im img {
   width: 500px;
@@ -56,6 +52,11 @@ h2 {
   font-size: 1.6rem;
   font-style: italic;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+.camioneta ul {
+  list-style: none;
 }
 
 .autos {
@@ -65,6 +66,11 @@ h2 {
   font-size: 1.6rem;
   font-style: italic;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+}
+.autos ul {
+  list-style: none;
 }
 
 h3 {
@@ -87,14 +93,13 @@ footer {
 
 @media only screen and (max-width: 480px) {
   .im {
-    max-width: 480px;
+    flex-direction: column;
+    margin-left: 12%;
   }
   .im img {
-    width: 55%;
-    height: 55%;
-  }
-  #im1 {
-    display: none;
+    padding-bottom: 5%;
+    width: 90%;
+    height: 50%;
   }
   .portadaAccesorios {
     flex-direction: column;

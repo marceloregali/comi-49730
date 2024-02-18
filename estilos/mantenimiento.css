@@ -1,8 +1,8 @@
-.portadaPrimaria {
+body {
   background-image: url(../medios/secundario.jpg);
 }
 
-.oficial {
+h1 {
   background-image: linear-gradient(to left, orange, white);
   color: black;
   font-size: 3rem;
@@ -19,7 +19,7 @@ h2 {
   font-size: 2rem;
 }
 
-.mante {
+header {
   color: rgb(248, 246, 246);
   font-size: 1.6rem;
   margin: auto;
@@ -28,14 +28,10 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0px 10px;
 }
-.mante ul li a {
+header ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-.caracteristicas {
-  color: white;
 }
 
 .parrafo {
@@ -94,5 +90,10 @@ footer {
 @media only screen and (max-width: 480px) {
   #padrisimo {
     display: block;
+  }
+  img {
+    width: 70%;
+    margin-bottom: 5%;
+    margin-left: 15%;
   }
 }/*# sourceMappingURL=mantenimiento.css.map */

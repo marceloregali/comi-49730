@@ -1,7 +1,7 @@
 body{
     background-image: url(../medios/secundario.jpg) ;
 }
-.oficial{
+h1{
     background-image: linear-gradient(to left,orange, white);
     color: black;
     font-size: 3rem;
@@ -23,21 +23,20 @@ h2{
     font-style: italic;
     text-align: center;
 }
-.paginas{
-    max-width: 800px;
+header{
+    color: rgb(248, 246, 246);
+    font-size: 1.6rem;
     margin: auto;
-    padding: 20px;
-    ul{
-        li{
-            a{
-            color: white;
-            font-size: 1.2rem;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            align-items: flex-start;
-            background-color: rgb(35, 35, 35, 0.5);
-            text-decoration: none;
+    max-width: 600px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 10px;
+    ul{ 
+        li{ 
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
             }
         }
     }
