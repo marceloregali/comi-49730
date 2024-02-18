@@ -2,7 +2,7 @@ body{
     background-image: url(../medios/secundario.jpg) ;
 }
 h1{
-    background-color: orange;
+    background-image: linear-gradient(to left,orange, white);
     font-size: 3rem;
     margin-top: 2%;
     margin-bottom: 1%;
@@ -23,6 +23,8 @@ header{
                 color: white;
                 text-decoration: none;
                 font-size: 1.2rem;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
             }
         }
     }
@@ -33,7 +35,6 @@ header{
     justify-content:space-around;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-
 }
 .portadaModelos{
     grid-area: "modelos";
@@ -53,14 +54,6 @@ header{
     font-size: 1.3rem;
     color: white;
 }
-a{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-}        
-
 h2{
     color: white;
     text-align: center;
@@ -116,7 +109,6 @@ footer{
 
 @media only screen and (max-width:480px){
 
-    /*pagina modelos mobile*/
     li {
         font-size: 1.4rem;
     }
