@@ -78,7 +78,7 @@ h1 {
   margin-right: 20px;
 }
 .ubicacion a {
-  color: black;
+  color: blue;
   font-size: 2rem;
 }
 
@@ -122,7 +122,7 @@ h2 {
   }
   .ubicacion {
     background-color: transparent;
-    color: rgb(244, 241, 241);
+    color: rgb(241, 242, 244);
     margin-left: 8%;
   }
   .ubicacion a {
