@@ -72,29 +72,16 @@ h2 {
   margin: 10% 15%;
 }
 
-.imagen1 {
-  margin-top: 5%;
-  border-radius: 25px;
-  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
-  transform: rotate(3deg);
-  margin-bottom: 5%;
-  z-index: 0;
-}
-
-.imagen {
-  border-radius: 25px;
-  box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
-  transform: rotate(3deg);
-  position: relative;
-  z-index: 1;
-}
-
-.imagen2 {
+img {
   border-radius: 25px;
   box-shadow: 27px 24px 7px 0px rgba(0, 0, 0, 0.75);
   transform: rotate(-3deg);
   margin-bottom: 5%;
-  z-index: 2;
+  z-index: 0;
+}
+img .imagen {
+  z-index: 1;
+  rotate: 3deg;
 }
 
 #arriba {
