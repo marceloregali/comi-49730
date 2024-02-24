@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 #portada {
-  background-image: url(../medios/PLANTA-TOYOTA-1.jpg);
+  background-image: url(../medios/planta\ toyota.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(249, 249, 251);
@@ -136,29 +136,31 @@ h2 {
     font-size: 1.2rem;
   }
 }
-/*
-@media only screen and (max-width:980px){
-.enlaces nav ul{
-    display:block;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .enlaces nav ul {
+    display: flex;
+    flex-direction: column;
     font-size: 1.4rem;
-}
-h1{
+  }
+  li {
+    border: none;
+  }
+  h1 {
     margin-top: 8%;
-    margin-left: 15%;
     font-size: 3rem;
-}
-.ubicacion{
+  }
+  .ubicacion {
     max-width: 50%;
     margin-right: 25%;
     font-size: 1.4rem;
     background-color: transparent;
     color: black;
     font-weight: bold;
-    a{
-        display:none;
-    }
-}
-.emblema{
+  }
+  .ubicacion a {
+    display: none;
+  }
+  .emblema {
     font-size: 1.1rem;
-}
-}*//*# sourceMappingURL=estilo.css.map */
+  }
+}/*# sourceMappingURL=estilo.css.map */
