@@ -1,4 +1,3 @@
-
 body{
     background-image: url(../medios/secundario.jpg);
 }
@@ -25,7 +24,7 @@ header{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0px 10px;
-    ul{ 
+    ul{
         li{ 
             a {
                 color: white;
@@ -35,41 +34,47 @@ header{
         }
     }
 }
-.parrafo{
-    color:rgb(249, 248, 247);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    column-gap: 10px;
-    color:rgb(10, 10, 10);
-    background-image: linear-gradient(to left,rgb(185, 141, 57), white);
-    padding: 5px;
-    border-radius: 6px;
+.im{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0px;
+    img{
+        width: 500px;
+        height: 500px;
+        border-radius: 25px;
+    }
 }
-img{
-    width: 100%;
-    height: 80%;
-    border-radius: 20px;
-    border-radius: 77px 12px 37px 33px;
-    box-shadow: 27px 24px 7px 0px rgba(0,0,0,0.75);
-    transform: rotate(3deg);
-    overflow: hidden;
-    margin-bottom: 10px;
+.camioneta{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom:  10px;
+    ul {
+        list-style: none;
+    }
+}
+.autos{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom:  10px;
+    ul {
+        list-style: none;
+    }
 }
 h3{
     color: rgb(4, 4, 4);
     background-image: linear-gradient(to left,orange, white);
     text-align: center;
     text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
-}
-.padre{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 30px;
-    row-gap: 10px;
-    align-content: center;
-    border:5px solid rgb(250, 246, 246);
-    justify-content: center;
-    justify-items: stretch;
 }
 button{
     display: inline-block;
@@ -83,15 +88,28 @@ footer{
 
 @media only screen and (max-width:480px){
 
-    #padrisimo{
-        display: block;
-        
-    }
-    
 
-    img{
-        width: 70%;
-        margin-bottom: 5%;
-        margin-left: 15%;
+    .im {
+        flex-direction: column;
+        margin-left: 12%;
+        
+        img{
+            padding-bottom: 5%;
+            width: 90%;
+            height: 50%;
     }
     }
+    .portadaAccesorios{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    .im{
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
