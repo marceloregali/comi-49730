@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 #portada{
-    background-image: url(../medios/planta\ toyota.jpg);
+    background-image: url(../medios/plantaToyota.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(249, 249, 251);
@@ -41,18 +41,18 @@ h1{
     nav{
         ul{
             display: flex;
-            text-decoration: none;
             font-style: italic;
             background-color: rgba(0, 0, 0, 0.5);
             margin-top: 4%;
             list-style: none;
             li{
+                margin-right: 0px 15px;
                 a {
                     display: flex;
-                    margin-right: 60px;
                     color:rgb(220, 230, 241);
-                    font-weight: 500px;
-                    padding: 10px;
+                    font-weight: 700;
+                    padding: 10px 15px;
+                    padding-left: 0px;
                     &:hover {
                         border-bottom: 2px solid blue;
                     }
@@ -65,7 +65,7 @@ h1{
         background-image: linear-gradient(to left,orange, white);
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         font-family: Arial, Helvetica, sans-serif;
     }
     .ubicacion{
@@ -103,11 +103,17 @@ h2{
 }    
 h1{
     margin-top: 60px;
-    text-shadow: -2px 3px 7px rgba(0,0,0,0.6);
+    font-size: 1.6rem;
 }
-nav ul{
-    flex-direction: column;
-    align-items: center;
+nav {
+    ul{
+        flex-direction: column;
+        margin-right: 5px;
+        list-style:disc;
+        li{
+            padding: 0px;
+        }
+    }
 }
 .cabecera{
     background-color: transparent;

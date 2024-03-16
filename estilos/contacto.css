@@ -49,6 +49,27 @@ button {
   border-radius: 5px;
 }
 
+span {
+  font-size: 1.2rem;
+}
+span a {
+  color: white;
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+input {
+  font-size: 1.3rem;
+  background-color: rgb(229, 225, 219);
+  border-radius: 10%;
+}
+
+textarea {
+  border-radius: 10%;
+}
+
 footer {
   text-align: center;
 }

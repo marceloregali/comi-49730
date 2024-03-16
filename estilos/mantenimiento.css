@@ -96,4 +96,7 @@ footer {
     margin-bottom: 5%;
     margin-left: 15%;
   }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*funcion para tablet, no posee codigo*/
 }/*# sourceMappingURL=mantenimiento.css.map */
