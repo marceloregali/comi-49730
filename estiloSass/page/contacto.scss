@@ -39,30 +39,141 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0px 10px;
 }
-button{
-    display: inline-block;
-    padding: 10px 20px;
-    background-image: linear-gradient(to left, orange, white);
-    border-radius: 5px;
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
-span{
-    font-size: 1.2rem;
-    color: black;
-    a{
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.section-inputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 75%;
+    text-align: center;
+    margin-top: 7%;
+    padding-left: 10%;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    input {
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 10px 20px;
+        outline: none;
+        font-size: 14pt;
+        margin: 10px;
+        transition: background-color 0.5s, border 0.5s;
+        color: black;
+
+        &:hover {
+            background-color: #454045;
+            border: 1px solid #f3f3f4;
+            box-shadow: 0 0 4px #754a4a;
+        }
+
+        &:focus {
+            background-color: #212121;
+            border: 1px solid #f3f3f4;
+            box-shadow: 0 0 4px #754a4a;
+        }
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 1rem;
         color: white;
+        background-color: rgb(18, 16, 16, 0.2);
     }
 }
-label{
-    font-size: 1.3rem;
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+
+    input[type="checkbox"] {
+        width: 20px;
+    }
+
+    span {
+        font-weight: 400;
+    }
 }
-input{
-    font-size: 1.3rem;
-    background-color: rgb(229, 225, 219);
-    border-radius: 10%;
+
+.legales{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+
+    button {
+        margin-inline: auto;
+    }
 }
-textarea{
-    border-radius: 10%;
+
+.submit {
+    background-color: orange;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 45%;
+    padding: 10px;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.6;
+    }
 }
+
+.legales {
+    span {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 400;
+        margin: auto;
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: 900;
+        }
+    }
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;  
+    background-image: linear-gradient(to left,orange, white);   
+    border-radius: 5px;
+}
+
+#politica {
+    margin: 10px;
+}
+
+
 footer{
     text-align: center;
 }
@@ -70,8 +181,56 @@ footer{
 
 
 @media only screen and (max-width:480px){
-    /*responsive para celular, no posee codigo*/
+    form {
+        font-size: 0.8rem;
+    }
+
+    .checkbox {
+        font-size: 0.6rem;
+    }
+
+    .legales {
+        font-size: 0.8rem;
+        align-items: center;
+
+        span {
+            font-size: 0.9rem;
+        }
+
+        button {
+            margin: 15px 0px;
+            font-size: 0.8rem;
+        }
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .section-inputs {
+        display: flex;
+        flex-direction: column;
+        input {
+            font-size: 0.8rem;
+        }
+    }
+
+    #email {
+        font-size: 0.8rem;
+    }
+
+    #password {
+        font-size: 0.8rem;
+    }    
+
+    label {
+        input {
+            width: auto;
+        }
+    }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
-    /*funcion para tablet, no posee codigo*/
+    label span{
+        font-size: 1rem;
+    }
     }
